@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box; /*para os inputes não passar da largura delimitada*/
+  margin: 0; /*zerar altura da página*/
+  padding: 0; /*zerar largura da página*/
+  font-family: Arial, Helvetica, sans-serif; /*Tipo de  fonte*/
+}
+
+body {
+  background-color: #f4f4f4; /*cor de fundo da pagina*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /*display, alig-intems e justify-content para centralizar os elementos*/
+  height: 100vh; /*centraliza os elementos  na vertical*/
+}
+
+.container {
+  /*estilização para dentro do container*/
+  background-color: floralwhite; /*cor de fundo do container*/
+  border-radius: 10px; /* grossura da borda do container*/
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /*colocar sombra em volta de todo container*/
+  padding: 1.5rem; /* distancia entre os elementos e a borda do container*/
+  width: 400px; /*expecificando a largura do container*/
+}
+
+h1 {
+  /*estilização do h1*/
+  font-size: 24px; /*tamanho da fonte*/
+  margin-bottom: 1.5rem; /*define a area na parte inferior do elemento para o proximo elemento*/
+  text-align: center; /*aliando texto ao centro*/
+}
+
+.input-group {
+  /*estilização dos class inputs geral*/
+  display: flex; /* para poder manipular o elemento */
+  flex-direction: column; /*para ficar um imput em baixo do outro*/
+  margin-bottom: 1.2rem; /*define a area na parte inferior do elemento para o proximo elemento*/
+}
+
+.input-group label {
+  /*estilização das label das class inputs-groups */
+  margin-bottom: 0.4rem; /*define a area na parte inferior do elemento para o proximo elemento*/
+  font-weight: bold; /* colocar o texto da label em negrito*/
+}
+
+select,
+input {
+  /*estilização dos select e inputs de fato */
+  padding: 0.8rem; /*espaçamento do elemento com as bordas*/
+  border-radius: 5px; /* grossura da borda do elemento*/
+  border: none; /*tirar as bordas*/
+  font-size: 1rem; /*tamanho da fonte*/
+  background-color: #eee; /*cor de fundo do select e input*/
+}
+
+button {
+  /*estilização do Botão */
+  background-color: #4caf50;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  cursor: pointer; /* para qndo passar o cursor em cima do mouse ele mudar de aparencia*/
+  font-size: 1rem; /*tamanho da fonte*/
+  padding: 0.7rem 1.2rem; /* espacamento do elemento em cima e em baixo .7 e laterais 1.2*/
+}

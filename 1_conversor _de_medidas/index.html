@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="estilo.css" />
+    <script src="scripts.js" defer></script>
+    <!--defer serve para carregar o html antes do JavaScript-->
+    <title>Conversor de Medidas</title>
+  </head>
+  <body>
+    <!--class container para abrigar os elementos do conversor-->
+    <div class="container">
+      <h1>Conversor de Unidades</h1>
+
+      <!--Uma classe para cada entrada do usuario-->
+      <div class="input-group">
+        <label for="input">Digite a Quantidade</label>
+        <input type="number" id="input" name="input" placeholder="0" />
+        <!--placeholder para indicar que é numerico e começa no 0 -->
+      </div>
+
+      <div class="input-group">
+        <label for="from">De:</label>
+        <select name="from" id="from">
+          <option value="m">Metros(s)</option>
+          <option value="km">Kilometros(s)</option>
+          <option value="cm">Centimentro(s)</option>
+          <option value="mm">Milimetros(s)</option>
+        </select>
+      </div>
+
+      <div class="input-group">
+        <label for="to">Para:</label>
+        <select name="to" id="to">
+          <option value="m">Metros(s)</option>
+          <option value="km">Kilometros(s)</option>
+          <option value="cm">Centimentro(s)</option>
+          <option value="mm">Milimetros(s)</option>
+        </select>
+      </div>
+
+      <button id="convert-btn">Converter</button>
+
+      <div class="out-group">
+        <label for="output">Resutado</label>
+        <input type="text" name="output" id="output" readonly />
+        <!--readonly serve pra não deixar o usuario digitar-->
+      </div>
+
+      <div id="message"></div>
+    </div>
+  </body>
+</html>
