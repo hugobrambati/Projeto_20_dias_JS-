@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: #f4f4f4; /*cor de fundo da pagina*/
+  background-color: #284259; /*cor de fundo da pagina*/
   display: flex;
   align-items: center;
   justify-content: center;
@@ -16,7 +16,7 @@ body {
 
 .container {
   /*estilização para dentro do container*/
-  background-color: floralwhite; /*cor de fundo do container*/
+  background-color: #6093bf; /*cor de fundo do container*/
   border-radius: 10px; /* grossura da borda do container*/
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /*colocar sombra em volta de todo container*/
   padding: 1.5rem; /* distancia entre os elementos e a borda do container*/
@@ -28,6 +28,7 @@ h1 {
   font-size: 24px; /*tamanho da fonte*/
   margin-bottom: 1.5rem; /*define a area na parte inferior do elemento para o proximo elemento*/
   text-align: center; /*aliando texto ao centro*/
+  color: #bf9d7e;
 }
 
 .input-group,
@@ -43,6 +44,7 @@ h1 {
   /*estilização das label das class inputs-groups */
   margin-bottom: 0.4rem; /*define a area na parte inferior do elemento para o proximo elemento*/
   font-weight: bold; /* colocar o texto da label em negrito*/
+  color: #bf9d7e;
 }
 
 select,
@@ -57,7 +59,7 @@ input {
 
 button {
   /*estilização do Botão */
-  background-color: #4caf50;
+  background-color: #bf9d7e;
   border-radius: 5px;
   border: none;
   color: #fff;
@@ -76,9 +78,9 @@ button:hover {
   margin-top: 1.2rem;
 }
 
-.menssage {
+#message {
   font-size: 0.8rem;
-  color: #4caf50;
+  color: #bf9d7e;
   margin-top: 0.7rem;
   text-align: center;
 }
