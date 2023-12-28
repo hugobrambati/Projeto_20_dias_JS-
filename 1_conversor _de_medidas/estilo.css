@@ -33,7 +33,7 @@ h1 {
 .input-group {
   /*estilização dos class inputs geral*/
   display: flex; /* para poder manipular o elemento */
-  flex-direction: column; /*para ficar um imput em baixo do outro*/
+  flex-direction: column; /*para ficar um input em baixo do outro*/
   margin-bottom: 1.2rem; /*define a area na parte inferior do elemento para o proximo elemento*/
 }
 
@@ -62,4 +62,8 @@ button {
   cursor: pointer; /* para qndo passar o cursor em cima do mouse ele mudar de aparencia*/
   font-size: 1rem; /*tamanho da fonte*/
   padding: 0.7rem 1.2rem; /* espacamento do elemento em cima e em baixo .7 e laterais 1.2*/
+  margin-bottom: 0.4rem; /*define a area na parte inferior do elemento para o proximo elemento*/
+  padding: 0.8rem;
+  opacity: 0.7; /*opacidade na cor  do botão*/
+  transition: 0.4;
 }
