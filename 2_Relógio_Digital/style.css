@@ -1,0 +1,30 @@
+body {
+  background-color: #333; /*cor de fundo da página*/
+  font-family: Helvetica; /*estilo de  fonte para todos os elementos*/
+}
+
+.container {
+  height: 100vh;
+  width: 100%;
+  padding-top: 5rem;
+  display: flex;
+  justify-content: center;
+  /*tecnica para centralizar o container*/
+}
+
+.relogio {
+  font-size: 3rem; /* tamanho da  fonte*/
+  font-weight: bold; /*fonte do relegio em negrito*/
+  color: #fff; /*cor da fonte do relogio*/
+  text-align: center;
+  border: 2px solid #fff; /*grossura da borda*/
+  border-radius: 1rem;
+  padding: 1rem 2rem;
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+
+.relogio span {
+  margin-right: 0.5rem;
+}
