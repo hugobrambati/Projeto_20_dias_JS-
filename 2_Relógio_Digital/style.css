@@ -13,11 +13,12 @@ body {
 }
 
 .relogio {
+  background-color: #178d3e;
   font-size: 3rem; /* tamanho da  fonte*/
   font-weight: bold; /*fonte do relegio em negrito*/
-  color: #fff; /*cor da fonte do relogio*/
+  color: chartreuse; /*cor da fonte do relogio*/
   text-align: center;
-  border: 2px solid #fff; /*grossura da borda*/
+  border: 2px solid chartreuse; /*grossura da borda*/
   border-radius: 1rem;
   padding: 1rem 2rem;
   height: 80px;
