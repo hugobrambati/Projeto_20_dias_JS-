@@ -3,7 +3,7 @@ body {
   padding-top: 2rem;
 }
 
-.citar {
+.quote {
   font-family: Helvetica;
   font-size: 1.6rem;
   text-align: center;
@@ -15,17 +15,17 @@ body {
   border-radius: 0.4rem;
 }
 
-.citar .texto {
+.quote .text {
   font-style: italic;
   margin-bottom: 0.4rem;
 }
 
-.citar .autor {
+.quote .author {
   font-weight: bold;
   color: #133110;
 }
 
-.botao {
+.button {
   font-size: 1.4rem;
   background-color: #0a2c07;
   color: #fff;
@@ -36,6 +36,6 @@ body {
   transition: 0.4s;
 }
 
-.botao:hover {
+.button:hover {
   background-color: #12520c;
 }
